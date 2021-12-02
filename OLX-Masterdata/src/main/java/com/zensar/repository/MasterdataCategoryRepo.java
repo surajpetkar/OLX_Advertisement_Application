@@ -1,9 +1,9 @@
 package com.zensar.repository;
 
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.zensar.model.MasterdataCategory;
 
-public interface MasterdataCategoryRepo extends MongoRepository<MasterdataCategory, String> {
+public interface MasterdataCategoryRepo extends JpaRepository<MasterdataCategory, String> {
 
 }
