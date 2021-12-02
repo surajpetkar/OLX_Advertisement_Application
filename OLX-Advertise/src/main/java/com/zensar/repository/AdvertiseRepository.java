@@ -1,6 +1,6 @@
 package com.zensar.repository;
 
-import org.springframework.data.mongodb.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.zensar.model.Advertise;
 
